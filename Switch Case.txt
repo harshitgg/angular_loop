@@ -1,0 +1,17 @@
+Switch Case
+.html
+
+<div [ngSwitch]='color'>
+	<h1 style="color: red;" *ngSwitchCase="'red'">
+		red colour
+	</h1>
+	<h1 style="color: blue;" *ngSwitchCase="'blue'">
+		blue colour
+	</h1>
+	<h1 style="color: gray;" *ngSwitchDefault>
+		default colour
+	</h1>
+</div>
+.ts
+color='red'
+***********************************************************
